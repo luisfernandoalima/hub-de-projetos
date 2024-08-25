@@ -10,6 +10,7 @@
     --AzulHeader: #090134;
     --AzulClaro: #48cae4;
     --AmareloClaro: #CEA546;
+    --Branco: #F0F3FA;
     /* Fontes */
     --Roboto: "Roboto", sans-serif;
     --RobotoMono:"Roboto Mono", monospace;
@@ -19,6 +20,12 @@
 *{
     margin: 0px;
     padding: 0px;
+}
+
+body{
+    background-color: var(--AzulHeader);
+    background: var(--AzulHeader) url(../img/headerBG.png) right top no-repeat fixed;
+    background-size: cover;
 }
 
 header{

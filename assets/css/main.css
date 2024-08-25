@@ -1,10 +1,8 @@
 .inicio {
-    height: 400px;
-    background: var(--AzulHeader) url(../img/headerBG.png) right top no-repeat fixed;
-    background-size: cover;
+    height: 430px;
     display: flex;
     justify-content: center;
-    padding-bottom: 10px;
+    margin-bottom: 10vh;
 }
 
 .inicio-content {
@@ -41,4 +39,43 @@
 .inicio-text h3 {
     color: #fff;
     font-size: 1em;
+}
+.inicio-text h3 a{
+    color: #fff;
+    text-decoration: none;
+    transition:  .3s;
+}
+
+.inicio-text h3 a:hover{
+    color: var(--AzulClaro);
+}
+
+.sobre{
+    background-color: var(--Branco);
+    height: min-content;
+    margin: auto;
+    padding: 20px;
+    border-top: 5px solid var(--AmareloClaro);
+    margin-bottom: 10vh;
+}
+
+.sobre h2{
+    color: var(--AzulHeader);
+    text-align: center;
+    font-family: var(--Roboto);
+    margin-bottom: 20px;
+}
+.sobre img {
+    display: block;
+    margin: auto;
+    width: 75%;
+}
+
+.sobre article{
+    font-size: 1.3em;
+}
+
+.sobre p{
+    text-align: justify;
+    text-indent: 30px;
 }
