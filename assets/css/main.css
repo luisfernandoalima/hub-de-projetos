@@ -1,4 +1,5 @@
 .inicio{
-    background-image: url(../img/background-header.jpg);
     height: 400px;
+    background: var(--AzulHeader) url(../img/headerBG.png) right top no-repeat fixed;
+    background-size: cover;
 }
