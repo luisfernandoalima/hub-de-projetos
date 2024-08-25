@@ -1,5 +1,44 @@
-.inicio{
+.inicio {
     height: 400px;
     background: var(--AzulHeader) url(../img/headerBG.png) right top no-repeat fixed;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.inicio-content {
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inicio-content img {
+    width: 25%;
+}
+
+.inicio-text {
+    font-family: var(--Roboto);
+    padding-right: 20px;
+}
+
+.inicio-text h1,
+.inicio-text h2,
+.inicio-text h3 {
+    margin-bottom: 0px;
+}
+
+.inicio-text h1 {
+    color: var(--AzulClaro);
+    font-size: 3.8em;
+}
+
+.inicio-text h2 {
+    color: var(--AmareloClaro);
+}
+
+.inicio-text h3 {
+    color: #fff;
+    font-size: 1em;
 }
