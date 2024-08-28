@@ -24,7 +24,7 @@
 
 body{
     background-color: var(--AzulHeader);
-    background: var(--AzulHeader) url(../img/headerBG.png) right top no-repeat fixed;
+    background: var(--AzulHeader) url(../img/backgrounds/headerBG.png) right top no-repeat fixed;
     background-size: cover;
 }
 
@@ -45,6 +45,7 @@ nav{
 nav ul{
     width: 250px;
     margin-bottom: 0px;
+    margin-right: 10px;
     display: flex;
     align-items: center;
     justify-content: space-around;

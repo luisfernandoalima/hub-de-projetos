@@ -40,42 +40,93 @@
     color: #fff;
     font-size: 1em;
 }
-.inicio-text h3 a{
+
+.inicio-text h3 a {
     color: #fff;
     text-decoration: none;
-    transition:  .3s;
+    transition: .3s;
 }
 
-.inicio-text h3 a:hover{
+.inicio-text h3 a:hover {
     color: var(--AzulClaro);
 }
 
-.sobre{
+.sobre,
+.projetos {
     background-color: var(--Branco);
     height: min-content;
     margin: auto;
-    padding: 20px;
+    padding: 20px 20px 50px 20px;
     border-top: 5px solid var(--AmareloClaro);
-    margin-bottom: 10vh;
 }
 
-.sobre h2{
+.sobre h2, .projetos h2 {
     color: var(--AzulHeader);
     text-align: center;
     font-family: var(--Roboto);
     margin-bottom: 20px;
 }
+
 .sobre img {
     display: block;
     margin: auto;
     width: 75%;
 }
 
-.sobre article{
+.sobre article {
     font-size: 1.3em;
 }
 
-.sobre p{
+.sobre p {
     text-align: justify;
     text-indent: 30px;
+}
+
+.card{
+    box-shadow: 4px 6px 10px #616161;
+}
+
+.testo-Card{
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.card-title{
+    margin-top: 5px;
+    margin-bottom:0px;
+}
+
+.card-text{
+    text-align: justify;
+    text-indent: 15px;
+}
+.moreProjects{
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.mais-projetos {
+    color: var(--AzulHeader);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width:50%;
+}
+
+.mais-projetos img {
+    background-color: var(--AzulHeader);
+    border-radius: 50%;
+    padding: 10px;
+    width: 60%;
+}
+
+.mais-projetos p {
+    font-family: var(--Roboto);
+    font-size: 1.5em;
+    font-weight: bold;
 }
