@@ -82,6 +82,10 @@
     text-indent: 30px;
 }
 
+.projetos{
+    border-bottom: 5px solid var(--AmareloClaro);
+}
+
 .card{
     box-shadow: 4px 6px 10px #616161;
 }
@@ -129,4 +133,11 @@
     font-family: var(--Roboto);
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.contatos{
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
 }
