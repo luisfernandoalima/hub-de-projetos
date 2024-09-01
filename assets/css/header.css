@@ -57,3 +57,58 @@ nav a{
     font-size: 1.2em;
     font-family: var(--Roboto);
 }
+
+/* Footer */
+
+footer{
+    background-color: var(--AzulHeader);
+    border-top: 5px solid var(--AmareloClaro);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.creator p{
+    margin-bottom: 0px;
+    color: #fff;
+}
+
+.meuEmail:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.imgFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 15%;
+}
+
+.imgFooter a{
+    text-decoration: none;
+}
+
+.imgFooter img{
+    width: 50px;
+}
+
+/* Botão de voltar ao topo */
+.pageUp{
+    position: fixed;
+    right: -150px;
+    bottom: 10px;
+    transition: .5s;
+}
+
+.pageUp.showButton{
+    right: 10px;
+}
+
+.pageUp button{
+    border: 2px solid var(--AzulHeader);
+    border-radius: 50%;
+    padding: 0px;
+    background-color: var(--AmareloClaro);
+}
