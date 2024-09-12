@@ -60,7 +60,8 @@
     border-top: 5px solid var(--AmareloClaro);
 }
 
-.sobre h2, .projetos h2 {
+.sobre h2,
+.projetos h2 {
     color: var(--AzulHeader);
     text-align: center;
     font-family: var(--Roboto);
@@ -82,29 +83,30 @@
     text-indent: 30px;
 }
 
-.projetos{
+.projetos {
     border-bottom: 5px solid var(--AmareloClaro);
 }
 
-.card{
+.card {
     box-shadow: 4px 6px 10px #616161;
 }
 
-.testo-Card{
+.testo-Card {
     padding: 5px 10px;
     margin-bottom: 10px;
 }
 
-.card-title{
+.card-title {
     margin-top: 5px;
-    margin-bottom:0px;
+    margin-bottom: 0px;
 }
 
-.card-text{
+.card-text {
     text-align: justify;
     text-indent: 15px;
 }
-.moreProjects{
+
+.moreProjects {
     height: max-content;
     display: flex;
     flex-direction: column;
@@ -119,7 +121,7 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    width:50%;
+    width: 50%;
 }
 
 .mais-projetos img {
@@ -135,7 +137,7 @@
     font-weight: bold;
 }
 
-.contatos{
+.contatos {
     height: 430px;
     display: flex;
     justify-content: center;
@@ -143,30 +145,30 @@
 }
 
 /* Área de contato */
-.contatoContent{
+.contatoContent {
     align-self: flex-end;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.contatoContent>img{
+.contatoContent>img {
     width: 40%;
 }
 
-.contatoLinks h2{
+.contatoLinks h2 {
     color: var(--AmareloClaro);
     font-family: var(--Roboto);
 }
 
-.contatoArea{
+.contatoArea {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 300px;
 }
 
-.contatoButton button{
+.contatoButton button {
     width: 300px;
     height: min-content;
     padding: 5px;
@@ -176,17 +178,17 @@
     transition: .3s;
 }
 
-.contatoImgArea{
+.contatoImgArea {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.contatoButton img{
+.contatoButton img {
     width: 100%;
 }
 
-.contatoButtonText{
+.contatoButtonText {
     display: flex;
     align-items: center;
     font-size: 2.5em;
@@ -194,24 +196,96 @@
     font-weight: bold;
 }
 
-.githubButton{
+.githubButton {
     background-color: #000;
 }
-.githubButton:hover{
+
+.githubButton:hover {
     background-color: #2e2e2e;
 }
 
-.linkedinButton{
+.linkedinButton {
     background-color: #007AB9;
 }
-.linkedinButton:hover{
+
+.linkedinButton:hover {
     background-color: #009eec;
 }
 
-.gmailButton{
+.gmailButton {
     background-color: #F44336;
 }
 
-.gmailButton:hover{
+.gmailButton:hover {
     background-color: #ff5347;
+}
+
+@media (max-width:818px) {
+    .inicio-text {
+        padding-left: 20px;
+    }
+
+    .inicio-text h1 {
+        font-size: 3em;
+    }
+
+    .inicio-text h2 {
+        font-size: 1.3em;
+    }
+
+    .inicio-text h3 {
+        color: #fff;
+        font-size: 1em;
+    }
+
+    .inicio-content img {
+        width: 20%;
+    }
+
+    .mais-projetos img {
+        width: 50%;
+    }
+
+    /* Contatos */
+    .contatos {
+        height: min-content;
+        padding: 30px 20px 20px 20px;
+        margin-bottom: 5vh;
+    }
+
+    .contatoArea {
+        height: 200px;
+    }
+
+    .contatoButton button {
+        width: 190px;
+    }
+
+    .contatoButtonText {
+        font-size: 1.5em;
+    }
+
+    .contatoImgArea {
+        padding: 0px 0px 0px 12px;
+    }
+}
+
+@media (max-width: 767px) {
+    .inicio {
+        height: 300px;
+    }
+
+    .card,
+    .projetos h3 {
+        width: 90%;
+        margin: auto;
+    }
+
+    .projetos h3 {
+        margin-bottom: 10px;
+    }
+
+    .verMaisArea {
+        margin-top: 50px;
+    }
 }
