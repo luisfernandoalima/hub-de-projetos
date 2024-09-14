@@ -4,12 +4,19 @@
 Esse projeto busca ser um sistema que consegue ligar todos os meus projetos front-end para facilitar a navegabilidade entre eles.
 
 ### Organização das pastas
-/assets - Pasta para os arquivos do projeto
+|/assets - Pasta para os arquivos do projeto
 
-/css - Pasta das folhas de estilo
+|/css - Pasta das folhas de estilo
 
-/img - Pasta das imagens
+|/img - Pasta das imagens
 
-/js - Arquivos JacaScript
+|/js - Arquivos JacaScript
 
-/projects - Páginas dos projetos
+|/projects - Páginas dos projetos
+
+## Tecnologias utilizadas
+
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **Bootstrap**
