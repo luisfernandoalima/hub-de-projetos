@@ -5,7 +5,6 @@ Esse projeto busca ser um sistema que consegue ligar todos os meus projetos fron
 
 ### Organização das pastas
 |/assets - Pasta para os arquivos do projeto
-
 |/css - Pasta das folhas de estilo
 
 |/img - Pasta das imagens
