@@ -80,3 +80,11 @@
     -webkit-line-clamp: 3;
     /* Número de linhas desejado */
 }
+
+@media(max-width: 767px){
+    .card{
+        width: 75%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+}

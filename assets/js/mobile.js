@@ -1,4 +1,4 @@
-const imgHub = document.querySelector('.hub-de-rede')
+const imgHub = document.querySelector('.inicio-content>img')
 const imgContatos = document.querySelector('.img-contatos')
 
 const verificarLargura = () => {
