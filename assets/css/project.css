@@ -1,0 +1,43 @@
+section{
+    background-color: var(--Branco);
+    width: 95%;
+    padding: 20px;
+    height: max-content;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.img-project-active{
+    border: 2px solid red;
+    background-color: aqua;
+    height: min-content;
+    width: 100%;
+}
+
+.img-project-active img{
+    width: 100%;
+    
+}
+
+.img-project{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-project img{
+    width: 31%;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.img-project img:hover{
+    transform: translateY(-5px) scale(1.1);
+
+}
+
+.img-project img.active{
+    transform: scale(1.1);
+    border: 2px solid var(--AmareloClaro);
+}

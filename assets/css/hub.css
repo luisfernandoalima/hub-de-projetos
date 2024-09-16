@@ -53,7 +53,7 @@
 
 /* Sessão de projetos */
 .projetos{
-    background-color: #fff;
+    background-color: var(--Branco);
     border-top: 5px solid var(--AmareloClaro);
     padding: 15px 5px 30px 5px;
 }
