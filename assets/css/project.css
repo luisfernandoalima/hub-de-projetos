@@ -8,7 +8,6 @@ section{
 }
 
 .img-project-active{
-    border: 2px solid red;
     background-color: aqua;
     height: min-content;
     width: 100%;
@@ -20,24 +19,35 @@ section{
 }
 
 .img-project{
-    margin-top: 10px;
+    height: 90px;
+    padding: 5px 0px;
+    margin-top: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    overflow-x: scroll;
 }
 
 .img-project img{
-    width: 31%;
+    width: 30%;
+    height: 100%;
+    margin: 0px 10px;
     border-radius: 10px;
     transition: .3s;
 }
 
 .img-project img:hover{
-    transform: translateY(-5px) scale(1.1);
+    transform: scale(1.1);
 
 }
 
 .img-project img.active{
     transform: scale(1.1);
     border: 2px solid var(--AmareloClaro);
+}
+
+@media (max-width: 767px){
+    .img-project{
+    
+    }
 }
