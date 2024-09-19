@@ -3,12 +3,12 @@ section{
     width: 95%;
     padding: 20px;
     height: max-content;
-    margin: auto;
+    margin: 15px auto;
     border-radius: 20px;
 }
 
 .img-project-active{
-    background-color: aqua;
+    background-color: gra;
     height: min-content;
     width: 100%;
 }
@@ -46,8 +46,9 @@ section{
     border: 2px solid var(--AmareloClaro);
 }
 
-@media (max-width: 767px){
-    .img-project{
-    
-    }
+section .container p{
+    text-indent: 15px;
+}
+section .container a{
+    text-decoration: none;
 }
