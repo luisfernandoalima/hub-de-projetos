@@ -79,6 +79,7 @@
     /* Substitui o texto que ultrapassa por reticências */
     -webkit-line-clamp: 3;
     /* Número de linhas desejado */
+    text-indent: 15px;
 }
 
 @media(max-width: 767px){

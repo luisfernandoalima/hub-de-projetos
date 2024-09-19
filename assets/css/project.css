@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 section{
     background-color: var(--Branco);
     width: 95%;
@@ -5,6 +7,10 @@ section{
     height: max-content;
     margin: 15px auto;
     border-radius: 20px;
+}
+
+h1, h2, h3, h4{
+    font-family: var(--Roboto);
 }
 
 .img-project-active{
@@ -51,4 +57,8 @@ section .container p{
 }
 section .container a{
     text-decoration: none;
+}
+
+.btn-secondary{
+    background-color: black;
 }
